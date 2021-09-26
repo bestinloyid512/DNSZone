@@ -1,8 +1,8 @@
 #! /bin/bash
 domain=$1
 if [ "$1" == "-h" ] ; then
-    echo "Usage: ./zone domain.com"
-    echo "example:./zone zonetransfer.me"
+    echo "Usage: ./dnszone domain.com"
+    echo "example:./dnszone zonetransfer.me"
     exit 0
 fi
 zone()
